@@ -12,6 +12,7 @@ ActionController::Routing::Routes.draw do |map|
   map.contact '/contact', :controller => 'pages', :action => 'contact'
   map.about   '/about',   :controller => 'pages', :action => 'about'
   map.help    '/help',    :controller => 'pages', :action => 'help'
+  map.sign_up '/sign_up', :controller => 'users', :action => 'new'
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   map.resources :products

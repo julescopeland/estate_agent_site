@@ -20,4 +20,9 @@ describe "Layout links" do
     get '/help'
     response.should render_template('pages/help')
   end
+  
+  it "should have a signup page at '/sign_up'" do
+      get '/sign_up'
+      response.should render_template('users/new')
+  end
 end
