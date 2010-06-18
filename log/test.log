@@ -1,1 +1,25 @@
 
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-17 13:16:04) [GET]
+Rendering pages/contact
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-17 13:16:04) [GET]
+Rendering pages/home
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-06-18 09:14:58) [GET]
+Rendering pages/about
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-06-18 09:14:58) [GET]
+Rendering pages/contact
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-06-18 09:14:58) [GET]
+Rendering pages/home
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
