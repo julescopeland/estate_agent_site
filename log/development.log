@@ -171,3 +171,91 @@ Processing PagesController#contact (for 127.0.0.1 at 2010-06-18 12:55:00) [GET]
 Rendering template within layouts/application
 Rendering pages/contact
 Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-18 13:30:20) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-18 13:30:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-18 13:30:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-18 13:34:35) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-18 13:38:48) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-18 13:39:34) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-18 14:07:17) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+
+ActionView::TemplateError (Missing template pages/_stylesheets.erb in view path app/views) on line #6 of app/views/layouts/application.html.erb:
+3: <html>
+4:   <head>
+5:     <title>Estate Agents | <%=h yield(:title) %></title>
+6:     <%= render :partial => 'stylesheets' %>
+7: 
+8:     <%= yield(:head) %>
+9:   </head>
+
+    app/views/layouts/application.html.erb:6
+
+Rendered rescues/_trace (101.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-18 14:07:40) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.9ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-18 14:16:23) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.4ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-18 14:16:25) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-18 14:18:18) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/]
