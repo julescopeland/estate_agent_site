@@ -710,3 +710,59 @@ Rendering template within layouts/application
 Rendering users/new
 Rendered layouts/_stylesheets (0.5ms)
 Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/sign_up]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-06-18 16:52:22) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.9ms)
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://localhost/sign_up]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-06-18 16:52:25) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/sign_up]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-18 16:52:36) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-18 16:52:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-06-18 16:52:45) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.5ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/sign_up]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-18 16:52:47) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-18 16:56:33) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.4ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-18 17:00:21) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.5ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
