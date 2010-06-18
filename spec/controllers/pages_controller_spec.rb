@@ -20,7 +20,7 @@ describe PagesController do
     it "should have the right title" do
       get 'home'
       response.should have_tag("title", 
-                                @default_title + "Home")
+                                @default_title + "Sample Application")
     end
   end
 
