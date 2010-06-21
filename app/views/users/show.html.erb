@@ -1,0 +1,15 @@
+<% title @user.name, show_title = false %>
+
+<table border="0" class="profile">
+	<tr>
+		<td class="main">
+			<h2><%= gravatar_for @user, :size => 80 %>
+				<%=h @user.name %>
+			</h2>
+		</td>
+		<td class="sidebar round">
+			<strong>Name: </strong><%=h @user.name %><br>
+			<strong>URL: </strong><%= link_to user_url(@user), @user %>
+		</td>
+	</tr>
+</table>

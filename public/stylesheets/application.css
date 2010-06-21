@@ -21,7 +21,17 @@ body {
   padding: 20px;
   background: #fff;
 }
+#footer {
+  text-align: center;
+  margin-top: 10px;
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+#footer .navigation {
+  float: none;
+}
 /* Links */
 
 a {
@@ -91,16 +101,28 @@ a.signup_button {
   -webkit-border-radius: 10px;
   border-radius:         10px;
 }
-#footer {
-  text-align: center;
-  margin-top: 10px;
-  width: 710px;
-  margin-left: auto;
-  margin-right: auto;
+/* User show page */
+
+table.profile {
+  width: 100%;
+  margin-bottom: 0;
 }
 
-#footer .navigation {
-  float: none;
+td.main {
+  width: 70%;
+  padding: 1em;
+}
+
+td.sidebar {
+  width: 30%;
+  padding: 1em;
+  vertical-align: top;
+  background: #ffc;
+}
+
+.profile img.gravatar {
+  border: 1px solid #999;
+  margin-bottom: -15px;
 }
 
 /* ================= */
