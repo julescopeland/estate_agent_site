@@ -1,2 +1,25 @@
 <% title "Sign Up" %>
 <p>Get a new account here.</p>
+<% form_for @user do |f| -%>
+	<%= f.error_messages %>
+	<div class="field">
+		<%= f.label :name, "Your Name" %><br>
+		<%= f.text_field :name %>
+	</div>
+	<div class="field">
+		<%= f.label :email, "E-Mail Address" %><br>
+		<%= f.text_field :email %>
+	</div>
+	<div class="field">
+		<%= f.label :password, "Password" %><br>
+		<%= f.password_field :password %>
+	</div>
+	<div class="field">
+		<%= f.label :password_confirmation, "Please Confirm Your Password" %><br>
+		<%= f.password_field :password_confirmation %>
+	</div>
+	<div class="actions">
+		<%= f.submit "Sign Up" %>
+	</div>
+
+<% end -%>

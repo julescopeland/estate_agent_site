@@ -125,6 +125,10 @@ td.sidebar {
   margin-bottom: -15px;
 }
 
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
 /* ================= */
 /* = Error notices = */
 /* ================= */
@@ -145,7 +149,13 @@ td.sidebar {
 }
 
 .fieldWithErrors {
-  display: inline;
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.fieldWithErrors label {
+  color: #fff;
 }
 
 #errorExplanation {
